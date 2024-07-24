@@ -108,26 +108,26 @@
 
 
 // Example 3 Youtube MP3 download
-const url = 'https://youtube-mp310.p.rapidapi.com/download/mp3?url=https://youtu.be/wbQLEXg_urE?list=PL1PqvM2UQiMoGNTaxFMSK2cih633lpFKP';
-const options = {
-	method: 'GET',
-	headers: {
-		'x-rapidapi-key': '',
-		'x-rapidapi-host': 'youtube-mp310.p.rapidapi.com'
-	}
-};
+// const url = 'https://youtube-mp310.p.rapidapi.com/download/mp3?url=https://youtu.be/wbQLEXg_urE?list=PL1PqvM2UQiMoGNTaxFMSK2cih633lpFKP';
+// const options = {
+// 	method: 'GET',
+// 	headers: {
+// 		'x-rapidapi-key': '',
+// 		'x-rapidapi-host': 'youtube-mp310.p.rapidapi.com'
+// 	}
+// };
 
 
-async function start() {
-  try {
-    const response = await fetch(url, options);
-    const result = await response.text();
-    console.log(result);
-  } catch (error) {
-    console.error(error);
-  }
-}
-start()
+// async function start() {
+//   try {
+//     const response = await fetch(url, options);
+//     const result = await response.text();
+//     console.log(result);
+//   } catch (error) {
+//     console.error(error);
+//   }
+// }
+// start()
 
 // Example 4 Shazam API
 
